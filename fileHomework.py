@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 # File homeworks and copy back grades.
+# Copyright 2015 Alex Reinhart
+# Unauthorized use punishable by 24 consecutive hours of
+# Barry Manilow Christmas music at 110 dB.
 
 import glob, subprocess, re, argparse
 
