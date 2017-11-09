@@ -16,7 +16,7 @@ def file_homework(hwnum, dry):
     dirs = glob.glob(HW_DIR + "s650-*/" + hwnum)
 
     print "Found {} ".format(len(dirs))
-    print "THIS IS A CHANGE"
+    print "THIS IS A"
 
     for d in dirs:
         name = re.search("s650-([a-z]+)/", d).group(1)
